@@ -4,11 +4,12 @@ This second part of Course is focuses on exploring advanced functional programmi
 
 ## Topics Covered
 
-### 1. Multistage Functions, Closures, Partial Functions, and Currying
+### 1. Multistage Functions, Closures, Partial Functions, Currying and Higher-Order Functions
 - **Multistage Functions**: Understand the concept of building functions that evolve through multiple stages of computation.
 - **Closures**: Explore how functions can capture the environment in which they are defined, demonstrating the power of functional state encapsulation.
 - **Partial Functions**: Learn how to create functions that are only defined for certain inputs, and how to compose them for more flexible computation.
 - **Currying**: Master the transformation of functions with multiple arguments into a series of functions, each taking a single argument, to enhance composability.
+- **Higher-Order Functions**: Utilize functions that take other functions as arguments or return functions, providing flexible and reusable code through functional composition and transformations.
 
 ### 2. Pattern Matching
 - **Beyond Basic Examples**: Move past simple examples to understand the full power of Scala's pattern matching, including nested and deep pattern matching.
