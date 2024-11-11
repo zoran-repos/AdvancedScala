@@ -16,7 +16,7 @@ val combinedHandler: PartialFunction[Any, String] = handleInt orElse handleStrin
 
 object PartialFunctionExample {
   def main(args: Array[String]): Unit = {
-    // Testiranje parcijalnih funkcija
+    
     println(combinedHandler(10))
     println(combinedHandler("Hello"))
     println(combinedHandler(42))
