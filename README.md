@@ -25,7 +25,7 @@ This second part of Course is focuses on exploring advanced functional programmi
 ### 5. Advanced Types
 - **Higher-Kinded Types**: Work with types that abstract over type constructors, providing additional layers of type safety and flexibility.
 - **Variance**: Understand covariance and contravariance to better model type hierarchies.
-- **Implicit Proofs (e.g., CanBuildFrom)**: Utilize Scala’s implicit resolution to create more generic and reusable code structures.
+- **Implicit Proofs**: Utilize Scala’s implicit resolution to create more generic and reusable code structures.
 
 ### 6. Functional Programming in Practice with Cats Library
 - **Cats Library**: Leverage the Cats library to apply pure functional programming concepts, including type classes, functors, monads, and more, for cleaner, more predictable code.
