@@ -16,7 +16,7 @@
   val users = List(
     User("Andrej", 30, 50000),
     User("Marija", 25, 40000),
-    User("Mile", 35, 70000)
+    User("Petar", 35, 70000)
   )
 
   val averageIncome = calculateAverage(extractIncomes(filterByAge(users, 30)))
