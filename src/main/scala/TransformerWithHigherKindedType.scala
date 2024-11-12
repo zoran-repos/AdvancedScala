@@ -28,7 +28,7 @@ val listResult = genericTransform[List, Int, String](10, _.toString)
 val optionResult = genericTransform[Option, Double, Int](3.14, _.toInt)  
 
 
-@main def run(): Unit = {
+@main def runHigherKindedType(): Unit = {
   println(listResult)    
   println(optionResult)  
 }
