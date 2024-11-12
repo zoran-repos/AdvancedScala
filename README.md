@@ -27,9 +27,6 @@ This second part of Course is focuses on exploring advanced functional programmi
 - **Variance**: Understand covariance and contravariance to better model type hierarchies.
 - **Implicit Proofs**: Utilize Scala’s implicit resolution to create more generic and reusable code structures.
 
-### 6. Functional Programming in Practice with Cats Library
-- **Cats Library**: Leverage the Cats library to apply pure functional programming concepts, including type classes, functors, monads, and more, for cleaner, more predictable code.
-
 ## Prerequisites
 - Familiarity with basic Scala syntax and functional programming concepts.
 - Experience with object-oriented programming in Scala is recommended.
