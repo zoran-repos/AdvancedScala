@@ -10,7 +10,9 @@ trait WrapperContainer[F[_]] {
 
 // Define an object that contains instances of Wrapper for List and Option
 object WrapperInstancesNew {
-  given listWrapper: WrapperContainer[List] with {
+  // contextual abstractions only in Sdala 3 use `given` instead of `implicit`
+  // with is used to define the type of the given instance and the methods it provides
+  given listWrapper: WrapperContainer[List] with   {
     def wrap[A](value: A): List[A] = List(value)
   }
 
