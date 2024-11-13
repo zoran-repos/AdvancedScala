@@ -20,21 +20,17 @@ object WrapperInstances {
   }
 }
 
-
 def wrapValueInContainer[F[_], A](value: A)(implicit wrapper: Wrapper[F]): F[A] = {
   wrapper.wrap(value)
 }
 
-
 import WrapperInstances._
-
 
 val wrappedInList = wrapValueInContainer[List, Int](42)
 
-
 val wrappedInOption = wrapValueInContainer[Option, String]("Hi")
 
-object Main extends App {
+@main def main(): Unit = {
   println(wrappedInList)
   println(wrappedInOption)
 }
