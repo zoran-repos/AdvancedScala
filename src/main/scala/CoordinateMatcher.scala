@@ -12,8 +12,8 @@ object CoordinateExtractor {
 }
 
 def describeCoordinates(input: String): String = input match {
-  case CoordinateExtractor(x, y) => s"Koordinate su: x = $x, y = $y"
-  case _ => "Nije validan format za koordinate"
+  case CoordinateExtractor(x, y) => s"Coordinates are: x = $x, y = $y"
+  case _ => "Not valid format for coordinates"
 }
 
 object CoordinateMatcher {
